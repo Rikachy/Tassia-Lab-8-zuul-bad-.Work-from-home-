@@ -29,7 +29,11 @@ public class Parser
         commands = new CommandWords();
         reader = new Scanner(System.in);
     }
-
+    public void helpCommands()
+    {
+        commands.showAll();
+    }
+    
     /**
      * @return The next command from the user.
      */

@@ -97,6 +97,7 @@ public class Game
         System.out.println("Type 'help' if you need help.");
         printLocationInfo();
         System.out.println();
+        System.out.println("You are thirsty - You should drink");
     }
 
     /**
@@ -126,7 +127,9 @@ public class Game
         else if (commandWord.equals("look")) {
             System.out.println( currentRoom.getLongDescription());
         }
-
+         else if (commandWord.equals("drink")) {
+            System.out.println("You drank some water, you are no longer thirsty.");
+        }
         return wantToQuit;
     }
 
@@ -142,8 +145,9 @@ public class Game
         System.out.println("You are lost. You are alone. You wander");
         System.out.println("around at the university.");
         System.out.println();
-        System.out.println("Your command words are:");
-        System.out.println("   go quit help look");
+        System.out.println("Your comman d words are:");
+        System.out.println("   go quit help look drink");
+        parser.helpCommands();
     }
 
     /** 
