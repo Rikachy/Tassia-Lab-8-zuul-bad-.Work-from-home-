@@ -34,3 +34,10 @@ Don't understand the question.
 Question 11.
 Implemented the longdescription method and replaced the old description method 
 in the game class. 
+
+Question 12.
+At the start of the game, the createroom is initialized, you start outside. 
+
+Question 13.
+The command changes the "room" you are in. So also changing the direction 
+choices. 
