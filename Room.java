@@ -66,4 +66,9 @@ public class Room
     {
         return description;
     }
+    // Question 11. 
+    public String getLongDescription()
+    {
+        return "You are " + description + ".\n" + getExitString();
+    }
 }

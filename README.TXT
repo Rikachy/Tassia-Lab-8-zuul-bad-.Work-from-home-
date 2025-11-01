@@ -28,3 +28,9 @@ designed class structure. It includes the fixes discussed in the book.
 Question 9.
 The keyset method returns all of the keys in a map.
 
+Question 10. 
+Don't understand the question. 
+
+Question 11.
+Implemented the longdescription method and replaced the old description method 
+in the game class. 
