@@ -40,4 +40,13 @@ At the start of the game, the createroom is initialized, you start outside.
 
 Question 13.
 The command changes the "room" you are in. So also changing the direction 
-choices. 
+choices.
+
+Question 17.
+No, you won't need to change the game class because the change is only made
+in the CommanWord class. With the help with the paser, I no longer need to 
+hard code the help key words.  
+
+Question 18. 
+In my opinion, making them all static would be better because it would mean
+you would need to write less codes when calling a method. 
