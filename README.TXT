@@ -24,3 +24,7 @@ project, and how to fix them.
 
 The project 'zuul-better' contains a version of this project with better
 designed class structure. It includes the fixes discussed in the book.
+
+Question 9.
+The keyset method returns all of the keys in a map.
+
